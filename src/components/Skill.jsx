@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export const Skill = () => {
   const [option, setOption] = useState(0);
   return (
-    <div id="skill" className="p-12">
+    <section id="skill" className="p-12">
       <h1 className="font-bold pb-2">SKILL</h1>
       <div className="judul flex justify-evenly bg-black text-white p-4 rounded-t-md text-xl font-bold">
         <span className={option === 0 ? 'active' : ''} onClick={() => setOption(0)}>
@@ -43,6 +43,6 @@ export const Skill = () => {
           </ul>
         </div>
       )}
-    </div>
+    </section>
   );
 };

@@ -4,14 +4,14 @@ import { Skill } from './Skill';
 import { Project } from './Project';
 import Footer from './Footer';
 
-const Content = () => {
+const Content = ({contentRef}) => {
   return (
-    <div className="w-1/2 overflow-y-scroll scroll-smooth">
+    <main id='content' ref={contentRef} className="w-1/2 overflow-y-scroll scroll-smooth">
       <About />
       <Skill />
       <Project />
       <Footer/>
-    </div>
+    </main>
   );
 };
 

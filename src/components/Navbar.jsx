@@ -11,17 +11,17 @@ const Navbar = () => {
       <a className=" hover:border-b-2" href="https://drive.google.com/file/d/1aMPjSS20Tf9XwvAiBcaeUCDopwOfHNQ9/view?usp=sharing">View Resume <i className="fa-solid fa-link fa-bounce"></i></a>
       <nav className="mt-28">
         <ul className='nav'>
-          <li className="p-2 text-lg">
+          <li className="p-2 text-lg  w-max">
             <a href="#about" className="flex">
               <span className="line"></span>ABOUT
             </a>
           </li>
-          <li className="p-2 text-lg">
+          <li className="p-2 text-lg  w-max">
             <a href="#skill" className='flex'>
               <span className="line"></span>SKILL
             </a>
           </li>
-          <li className="p-2 text-lg">
+          <li className="p-2 text-lg  w-max">
             <a href="#project" className='flex'>
               <span className="line"></span>PROJECT
             </a>
