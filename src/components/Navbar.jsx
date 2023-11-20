@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="w-1/2 p-2">
+    <div className="w-1/2 p-2 h-screen top-0">
       <h1 className="text-4xl font-bold mb-3">Abel Akmal</h1>
       <h2 className="text-xl">Full-Stack Develover</h2>
       <p id="prag" className="border-b-4 py-3 mb-2">

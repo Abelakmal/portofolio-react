@@ -53,7 +53,7 @@ function App() {
   return (
     <>
       {show ? (
-        <div className="main flex h-screen pt-20 pl-20 pr-20 scroll-smooth ">
+        <div className="main flex pt-20 pl-20 pr-20 ">
           <Navbar />
           <Content contentRef={contentRef} />
           <img src={robot} alt="robot" className="w-20 h-20 absolute right-0 bottom-0 " />
