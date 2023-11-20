@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 const Content = ({contentRef}) => {
   return (
-    <main id='content' ref={contentRef} className="w-1/2 h-screen overflow-y-auto">
+    <main id='content' ref={contentRef} className="lg:w-1/2  h-screen lg:overflow-y-auto">
       <About />
       <Skill />
       <Project />

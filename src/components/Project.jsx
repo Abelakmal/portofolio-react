@@ -6,8 +6,8 @@ import api from '../assets/api.jpg'
 export const Project = () => {
     
   return (
-    <section id="project" className="p-12">
-      <h1 className='font-bold pb-2'>PROJECT</h1>
+    <section id="project" className="lg:p-12 max-sm:p-4">
+      <h1 className="font-bold pb-2 max-lg:sticky max-lg:top-0 max-sm:pl-4 max-sm:mt-24" style={{background: "linear-gradient(to right, #000428, #072f52)"}}>PROJECT</h1>
       <ul>
         <li className="figting bg-cyan-950 p-5 mb-5 hover:">
           <a href="legends-fight/index.html">

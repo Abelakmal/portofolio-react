@@ -53,10 +53,10 @@ function App() {
   return (
     <>
       {show ? (
-        <div className="main flex pt-20 pl-20 pr-20 ">
+        <div className="main lg:flex lg:pt-20 lg:pl-20 lg:pr-20 ">
           <Navbar />
           <Content contentRef={contentRef} />
-          <img src={robot} alt="robot" className="w-20 h-20 absolute right-0 bottom-0 " />
+          <img src={robot} alt="robot" className="w-20 h-20 absolute max-sm:bottom-80 max-sm:right-2 lg:right-0 lg:bottom-0 " />
         </div>
       ) : (
         loading()
