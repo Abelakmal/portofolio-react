@@ -5,10 +5,10 @@ import api from '../assets/api.jpg';
 
 export const Project = () => {
   return (
-    <section id="project" className="lg:p-12 max-sm:p-4 max-lg:mt-24 max-lg:p-5">
-      <h1 className="font-bold pb-2 max-sm:pt-6 max-sm:pl-4 max-sm:mt-24 max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">PROJECT</h1>
+    <section id="project" className="lg:p-12  max-lg:mt-24 ">
+      <h1 className="font-bold pb-2 max-sm:pt-6 max-sm:p-2 max-sm:sticky max-sm:top-0  max-sm:mt-24 max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">PROJECT</h1>
       <ul>
-        <li className="figting bg-cyan-950 p-5 mb-5 rounded">
+        <li className="figting bg-cyan-950 p-5 mb-5 max-sm:ml-4 max-sm:mr-4 rounded">
           <a href="legends-fight/index.html">
             <h2 className="text-lg mb-2">
               Legend Fight <i className="ml-2 fa-solid fa-spinner fa-spin"></i>
@@ -22,7 +22,7 @@ export const Project = () => {
             </ul>
           </a>
         </li>
-        <li className="instagram-clone bg-cyan-950 p-5 mb-5 rounded">
+        <li className="instagram-clone bg-cyan-950 p-5 mb-5 max-sm:ml-4 max-sm:mr-4 rounded">
           <a href="legends-fight.abelakmal/index.html">
             <h2 className="text-lg mb-2">
               Instagram <i className="ml-2 fa-solid fa-spinner fa-spin"></i>
@@ -36,7 +36,7 @@ export const Project = () => {
             </ul>
           </a>
         </li>
-        <li className="Api bg-cyan-950 p-5 mb-5 rounded">
+        <li className="Api bg-cyan-950 p-5 mb-5 max-sm:ml-4 max-sm:mr-4 rounded">
           <a href="https://github.com/Abelakmal/E-commerce">
             <h2 className="text-lg mb-2">
               Api E-commerce <i className="ml-2 fa-solid fa-check fa-beat"></i>
