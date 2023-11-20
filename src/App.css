@@ -22,36 +22,16 @@ body {
   border-image: linear-gradient(to right, red, blue) 1;
 }
 
-#content {
-  direction: rtl;
-}
-
-#content section{
-  direction: ltr;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 .nav li a:hover {
   opacity: 1;
+}
+
+#content::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+#content::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
 
 ul li:hover .line {
@@ -80,8 +60,7 @@ nav a.active .line {
   margin-right: 6px;
 }
 
-
-.main img:hover{
+.main img:hover {
   transition: 0.5s;
   margin-bottom: 12px;
 }
