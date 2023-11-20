@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="mt-28">
         <ul className='nav'>
           <li className="p-2 text-lg  w-max">
-            <a href="#about" className="flex">
+            <a href="#about" className="flex active">
               <span className="line"></span>ABOUT
             </a>
           </li>
