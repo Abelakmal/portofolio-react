@@ -22,6 +22,14 @@ body {
   border-image: linear-gradient(to right, red, blue) 1;
 }
 
+#content {
+  direction: rtl;
+}
+
+#content section{
+  direction: ltr;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -42,8 +50,6 @@ body {
   background: #555;
 }
 
-
-
 .nav li a:hover {
   opacity: 1;
 }
@@ -57,15 +63,13 @@ ul li:hover .line {
   margin-right: 6px;
 }
 
-nav a{
+nav a {
   opacity: 0.5;
 }
 
-nav a.active{
+nav a.active {
   opacity: 1;
 }
-
-
 
 nav a.active .line {
   transition: 0.5s;
@@ -74,4 +78,10 @@ nav a.active .line {
   height: min-content;
   padding-top: 14px;
   margin-right: 6px;
+}
+
+
+.main img:hover{
+  transition: 0.5s;
+  margin-bottom: 12px;
 }
