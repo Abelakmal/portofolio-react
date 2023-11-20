@@ -4,7 +4,7 @@ export const Skill = () => {
   const [option, setOption] = useState(0);
   return (
     <section id="skill" className="lg:p-12 max-sm:mt-24 max-sm:m-4">
-      <h1 className="font-bold pb-2 max-lg:sticky max-lg:top-0 max-sm:pl-4" style={{background: "linear-gradient(to right, #000428, #072f52)"}}>SKILL</h1>
+      <h1 className="font-bold pb-2 max-lg:sticky max-lg:top-0 max-sm:pl-4 max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">SKILL</h1>
       <div className="judul flex justify-evenly bg-black text-white lg:p-4 max-sm:py-2 rounded-t-md lg:text-xl lg:font-bold">
         <span className={option === 0 ? 'active' : ''} onClick={() => setOption(0)}>
           Front-end

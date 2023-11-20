@@ -3,7 +3,9 @@ import React from 'react';
 export const About = () => {
   return (
     <section id="about" className="lg:p-12">
-      <h1 className="font-bold pb-2 max-lg:sticky max-sm:pl-4 max-lg:top-0 max-lg:w-full" style={{background: "linear-gradient(to right, #000428, #072f52)"}}>ABOUT</h1>
+      <h1 className="font-bold pb-2 max-lg:sticky max-sm:pl-4 max-lg:top-0 max-lg:w-full max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">
+        ABOUT
+      </h1>
       <p className="p1 mb-5 max-sm:m-6">
         I have been learning coding since 1st grade in high school. My interest in the world of coding emerged because I was curious about how programs are created. Since the desire to understand how the program works, I started studying
         programming. Initially, I was interested in creating an IoT program because I was very curious about how an object could be controlled via a remote. Turns out, this involves a low-level programming language, such as Java. Once I
