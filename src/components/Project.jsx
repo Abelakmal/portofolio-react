@@ -6,7 +6,7 @@ import api from '../assets/api.jpg';
 export const Project = () => {
   return (
     <section id="project" className="lg:p-12  max-lg:mt-24 ">
-      <h1 className="font-bold pb-2 max-sm:pt-6 max-lg:pl-6 max-lg:pr-6 max-sm:p-2 max-sm:sticky max-sm:top-0  max-sm:mt-24 max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">PROJECT</h1>
+      <h1 className="font-bold text-center pb-2 max-sm:pt-6 max-lg:pl-6 max-lg:pr-6 max-sm:p-2 max-sm:sticky max-sm:top-0  max-sm:mt-24 max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">PROJECT</h1>
       <ul>
         <li className="figting bg-cyan-950 p-5 mb-5 max-sm:ml-4 max-sm:mr-4 max-lg:ml-6 max-lg:mr-6 rounded">
           <a href="legends-fight/index.html">

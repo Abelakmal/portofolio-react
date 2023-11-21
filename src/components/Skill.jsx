@@ -10,8 +10,8 @@ import php from '../assets/php.png';
 export const Skill = () => {
   return (
     <section id="skill">
-      <h1 className="text-center p-2 font-bold">MY SKILL</h1>
-      <div className="grid gap-4">
+      <h1 className="text-center mt-20 p-2 font-bold max-sm:sticky max-sm:top-0 max-sm:bg-gradient-to-r from-[#000428] to-[#072f52]">MY SKILL</h1>
+      <div className="grid gap-4 lg:grid-col-2 max-sm:m-4 max-lg:m-4 ">
         <div className="bg-[rgb(15,25,49)] h-96 rounded ">
           <h2 className="text-center mb-12">Front-end</h2>
           <div className="flex items-center flex-col ">
@@ -40,8 +40,8 @@ export const Skill = () => {
             </i>
           </div>
         </div>
-        <div className="bg-[rgb(15,25,49)] h-96 rounded col-span-2 ">
-          <h2 className="text-center mb-12">Front-end</h2>
+        <div className="bg-[rgb(15,25,49)] h-96 rounded lg:col-span-2 ">
+          <h2 className="text-center mb-12">Language-p</h2>
           <div className="flex items-center flex-col ">
             <i className="flex mb-6">
               <img src={java} alt="next-js logo" className="h-12" /> <span className="text-3xl pt-1 pl-2">Next Js</span>
