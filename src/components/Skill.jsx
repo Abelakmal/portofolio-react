@@ -15,7 +15,7 @@ export const Skill = () => {
         <div className="bg-[rgb(15,25,49)] h-96 rounded ">
           <h2 className="text-center mb-12">Front-end</h2>
           <div className="flex items-center flex-col ">
-            <i class="fa-brands fa-react text-[#09bfec] text-3xl mb-6"> React</i>
+            <i className="fa-brands fa-react text-[#09bfec] text-3xl mb-6"> React</i>
             <i className="flex mb-6">
               <img src={next} alt="next-js logo" className="bg-white rounded-full h-12" /> <span className="text-3xl pt-1 pl-2">Next Js</span>
             </i>
@@ -29,7 +29,7 @@ export const Skill = () => {
           <h2 className="text-center mb-12">Back-End</h2>
           <div className="flex items-center flex-col ">
             <i className="flex mb-6">
-              <img src={spring} alt="next-js logo" className="bg-white rounded-full h-12" /> <span className="text-3xl pt-1 pl-2">Next Js</span>
+              <img src={spring} alt="next-js logo" className="bg-white rounded-full h-12" /> <span className="text-3xl pt-1 pl-2">Spring Boot</span>
             </i>
             <i className="flex mb-6">
               <img src={express} alt="next-js logo" className=" h-9" /> <span className="text-3xl pt-1 pl-2">Express Js</span>
@@ -44,7 +44,7 @@ export const Skill = () => {
           <h2 className="text-center mb-12">Language-p</h2>
           <div className="flex items-center flex-col ">
             <i className="flex mb-6">
-              <img src={java} alt="next-js logo" className="h-12" /> <span className="text-3xl pt-1 pl-2">Next Js</span>
+              <img src={java} alt="next-js logo" className="h-12" /> <span className="text-3xl pt-1 pl-2">Java</span>
             </i>
             <i className="flex mb-6">
               <img src={javascript} alt="next-js logo" className=" h-9" /> <span className="text-3xl pt-1 pl-2">Javascript</span>

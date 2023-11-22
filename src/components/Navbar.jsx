@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="lg:w-1/2 p-2 lg:h-screen top-0 max-sm:p-4 max-lg:p-5">
+    <div className="lg:w-1/2 p-2 lg:h-screen lg:sticky lg:overflow-auto lg:top-0 max-sm:p-4 max-lg:p-5">
       <h1 className="text-4xl font-bold mb-3">Abel Akmal</h1>
       <h2 className="text-xl">Full-Stack Develover</h2>
       <p id="prag" className="border-b-4 py-3 mb-2">
