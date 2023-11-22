@@ -8,17 +8,14 @@ function App() {
   const contentRef = useRef(null);
   const [activeSection, setActiveSection] = useState('');
   const [show, setShow] = useState(false);
-  let top = contentRef.current.scrollTop;
   useEffect(() => {
     if (show) {
       const sectionContent = contentRef.current?.querySelectorAll('main section');
       const navLinks = document.querySelectorAll('nav a');
-      console.log(top);
 
       const handleScroll = () => {
         sectionContent.forEach((sec) => {
           let top = contentRef.current.scrollTop;
-          console.log(top);
           let scrollHeight = sec.offsetHeight;
           let scrollTop = sec.offsetTop - 100;
           let id = sec.getAttribute('id');
@@ -31,7 +28,6 @@ function App() {
           }
         });
       };
-      console.log(handleScroll());
       contentRef.current.addEventListener('scroll', handleScroll);
 
       return () => {
